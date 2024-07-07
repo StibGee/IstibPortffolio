@@ -1,2 +1,2 @@
 # IstibPortffolio
-job rerady portfolio
+job Ready portfolio
