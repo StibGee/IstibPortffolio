@@ -1,2 +1,2 @@
 # IstibPortffolio
-job Ready portfolio
+# visit https://stibgee.github.io/IstibPortffolio/
