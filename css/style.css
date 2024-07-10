@@ -395,6 +395,21 @@ strong{
             100% { transform: translateX(10px); } /* Move the image 10px to the right */
         }
 
+        @media (max-width: 576px) {
+          .contact-icon a img {
+              width: 60px;
+              height: 100px;
+          }
+      }
+      @media (max-width: 767px) {
+        .hero-title h2 {
+            font-size: 1.5rem;
+        }
+
+        .responsive-text {
+            font-size: 1rem;
+        }
+    }
   /*----------about me------------*/
 
   .hr{
@@ -418,14 +433,54 @@ strong{
 .img-shadow {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
+@media (max-width: 576px) {
+  .about__subtitle {
+      font-size: 1.5rem;
+  }
+  .about-text {
+      font-size: 1rem;
+  }
+  .about{
+    padding: 0 2px;
+  }
+}
 
 /*----------Projects------------*/
 
 .project-title{
     margin: 100px 0;
 }
+/* Default styles for the carousel */
+.custom-carousel .item {
+  height: 400px; /* Default height for larger screens */
+  background-size: cover; /* Ensure the background image covers the item */
+  background-position: center; /* Center the background image */
+}
 
+.custom-carousel .item-desc {
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text readability */
+  color: white; /* Text color */
+  padding: 20px; /* Padding around the text */
+}
+
+/* Media query for mobile views */
+@media (max-width: 767px) {
+  .custom-carousel .item {
+      height: 200px; /* Adjusted height for mobile screens */
+  }
+  .custom-carousel .item-desc {
+      padding: 10px; /* Adjust padding for better readability on mobile */
+  }
+  .custom-carousel .item-desc h3 {
+      font-size: 1.2rem; /* Adjust font size for mobile */
+  }
+  .custom-carousel .item-desc h5 {
+      font-size: 1rem; /* Adjust font size for mobile */
+  }
+  .custom-carousel .item-desc p {
+      font-size: 0.9rem; /* Adjust font size for mobile */
+  }
+}
 /*----------Services------------*/
 
 .services h1{
@@ -673,11 +728,11 @@ strong{
     display: flex;
     flex-direction: column;
   }
-.app-form{
+  .app-form {
     background-color: #cdafdd;
     padding: 35px;
     border-radius: 10px;
-    box-shadow: #000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
   .app-title {
     display: flex;
@@ -852,6 +907,15 @@ strong{
         height: 30px;
     }
 }
+
+@media (max-width: 767px) {
+  .app-title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%; /* Ensure the parent div takes full height */
+  }
+}
 /*------footer-----*/
 
 .footer p{
@@ -868,4 +932,13 @@ strong{
     color: white;
     font-size: 24px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 600px) {
+  .footer p {
+      font-size: 14px; /* Smaller font size for mobile */
+      margin-bottom: 10px; /* Space before the logo */
+  }
+  .navbar-logo {
+      margin-left: 0 !important; /* Remove margin for logo on mobile */
+  }
 }

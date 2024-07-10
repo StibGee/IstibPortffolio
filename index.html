@@ -23,7 +23,7 @@
 <body>
     <header class="sticky-top">
         <nav class="navbar navbar-expand-custom navbar-mainbg p-0">
-            <a class="navbar-brand navbar-logo ml-5" href="#home"><img src="img/logo.png" alt="" width="auto" height="50px"></a>
+            <a class="navbar-brand navbar-logo ml-5" href="index.html"><img src="img/logo.png" alt="" width="auto" height="50px"></a>
             <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars text-white"></i>
             </button>
@@ -31,7 +31,7 @@
                 <ul class="navbar-nav ml-auto mr-5">
                     <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#home"><i class="fas fa-tachometer-alt"></i>Home</a>
+                        <a class="nav-link active" href="index.html"><i class="fas fa-tachometer-alt"></i>Home</a>
                     </li>
                     <li class="nav-item ">
                         <a class="nav-link" href="#about"><i class="far fa-address-book"></i>About Me</a>
@@ -52,231 +52,226 @@
             </div>
         </nav>
     </header>
-    <main>
-        <div id="blob"></div>
-        <div class="container col-12">
-            <div class="row align-items-center justify-content-center" style="min-height: 90vh;">
-                <div class="col-md-6" data-aos="fade-right">
-                    <img src="img/heroes.png" alt="Hero Image" class="img-fluid hover-move" width="100%">
+  <main>
+    <div id="blob"></div>
+    <div class="container col-12">
+        <div class="row align-items-center justify-content-center" style="min-height: 90vh;">
+            <div class="col-md-6" data-aos="fade-right">
+                <img src="img/heroes.png" alt="Hero Image" class="img-fluid hover-move" width="100%">
+            </div>
+            <div class="col-md-6" data-aos="fade-left">
+                <div class="hero-title m-5 text-center text-md-left">
+                    <h2 class="mb-3">Hey Folks, It's Your Friend  <strong>STIB!</strong></h2>
+                    <p>I'm <span class="typed" data-typed-items=" UI/UX, Front-end Developer, Freelancer ">UI/UX</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+                    <div class="contact-icon d-flex justify-content-center align-items-center mt-5">
+                        <a href="https://www.facebook.com/Stevegarciano1020" class="px-3"><img src="img/icon/fb.png" alt="" style="width: 50px; height: 50px;"></a>
+                        <a href="https://www.instagram.com/ean_steveee" class="px-3"><img src="img/icon/instagram.png" alt="" style="width: 50px; height: 50px;"></a>
+                        <a href="https://github.com/StibGee" class="px-3"><img src="img/icon/github.png" alt="" style="width: 70px; height: 70px;"></a>
+                    </div>
                 </div>
-                <div class="col-md-6" data-aos="fade-left">
-                    <div class="hero-title m-5 text-center text-md-left">
-                        <h2 class="mb-3">Hey Folks, It's Your Friend  <strong>STIB!</strong></h2>
-                        <p>I'm <span class="typed" data-typed-items=" UI/UX, Front-end Developer, Freelancer ">UI/UX</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
-                        <div class="contact-icon d-flex justify-content-center align-items-center mt-5">
-                            <a href="https://www.facebook.com/Stevegarciano1020" class="px-3"><img src="img/icon/fb.png" alt="" style="width: 50px; height: 50px;"></a>
-                            <a href="https://www.instagram.com/ean_steveee" class="px-3"><img src="img/icon/instagram.png" alt="" style="width: 50px; height: 50px;"></a>
-                            <a href="https://github.com/StibGee" class="px-3"><img src="img/icon/github.png" alt="" style="width: 70px; height: 70px;"></a>
+            </div>
+        </div>
+    </div>
+    <section class="about m-5" id="about" data-aos="fade-up">
+        <h1 class="section-title d-flex justify-content-center">ABOUT ME</h1>
+        <div class="about__container bd-grid d-flex justify-content-center align-items-center">
+            <div class="row w-100 d-flex justify-content-center align-items-center">
+                <div class="col-md-6 order-md-2">
+                    <h2 id="about-subtitle" class="about__subtitle col-12 col-lg-10 mx-auto mt-5 text-center text-md-left">I'am Steve</h2>
+                    <p class="about-text col-12 col-lg-10 mx-auto mt-5 text-center text-md-left" aria-labelledby="about-subtitle">
+                        I am a passionate Frontend Developer with a focus on UI/UX design. Proficient in HTML, CSS, JavaScript, and frameworks like Vue.js and PHP, I create visually appealing and user-friendly interfaces. I thrive in collaborative environments, using agile methodologies to deliver high-quality projects. My goal is to contribute to innovative projects that provide exceptional user experiences.
+                    </p>
+                </div>
+                <div class="about-img col-md-6 order-md-1 d-flex justify-content-center">
+                    <div class="img-zoom">
+                        <img src="img/Istib.jpg" alt="img" class="img-fluid img-shadow">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="hr">
+    <section class="projects" id="projects" data-aos="fade-up">
+        <div class="wrapper">
+            <h1 class="project-title d-flex justify-content-center">SKILLS</h1>
+            <div class="row">
+                <div class="col-md-4 mb-4" ontouchstart="this.classList.toggle('hover');" data-aos="flip-left">
+                    <div class="container">
+                        <div class="front" style="background-image: url(img/logos/github.png)">
+                        </div>
+                        <div class="back">
+                            <div class="inner">
+                                <p>Skilled in managing repositories, branching, pull requests, and issue tracking to streamline development workflows.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" ontouchstart="this.classList.toggle('hover');" data-aos="flip-left">
+                    <div class="container">
+                        <div class="front" style="background-image: url(img/logos/php.webp)">
+                            <div class="inner">
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="inner">
+                                <p>Proficient in handling variables, arrays, loops, and basic functions. Building simple yet effective web applications and websites to enhance digital presence and functionality</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" ontouchstart="this.classList.toggle('hover');" data-aos="flip-left">
+                    <div class="container">
+                        <div class="front" style="background-image: url(img/logos/html.jpg)">
+                            <div class="inner">
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="inner">
+                                <p>Fundamental knowledge of HTML for frontend development, proficient in creating structured web pages with semantic markup. Skilled in integrating multimedia elements, forms, and basic styling to enhance user interfaces and user experience.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4" ontouchstart="this.classList.toggle('hover');" data-aos="flip-left">
+                    <div class="container">
+                        <div class="front" style="background-image: url(img/logos/ps.webp)">
+                            <div class="inner">
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="inner">
+                                <p>Proficient in photo editing, image manipulation, and graphic design. Experienced in creating stunning visuals and enhancing photographs with precision and creativity</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" ontouchstart="this.classList.toggle('hover');" data-aos="flip-left">
+                    <div class="container">
+                        <div class="front" style="background-image: url(img/logos/vue.png)">
+                            <div class="inner">
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="inner">
+                                <p>Vue.js skills for frontend development, adept at building interactive interfaces and integrating components to create dynamic web applications.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" ontouchstart="this.classList.toggle('hover');" data-aos="flip-left">
+                    <div class="container">
+                        <div class="front" style="background-image: url(img/logos/figma.png)">
+                            <div class="inner">
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="inner">
+                                <p>Skilled in Figma for prototyping, proficient in creating interactive and visually compelling designs. Experienced in collaborative design processes, wireframing, and creating user interfaces that enhance user experience</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <section class="about m-5" id="about" data-aos="fade-up">
-            <h1 class="section-title d-flex justify-content-center">ABOUT ME</h1>
-            <div class="about__container bd-grid d-flex justify-content-center align-items-center">
-                <div class="row w-100 d-flex justify-content-center align-items-center">
-                    <div class="col-md-6">
-                        <h2 id="about-subtitle" class="about__subtitle col-12 col-lg-10 mx-auto mt-5">I'am Steve</h2>
-                        <p class="about-text col-12 col-lg-10 mx-auto mt-5" aria-labelledby="about-subtitle">
-                            I am a passionate Frontend Developer with a focus on UI/UX design. Proficient in HTML, CSS, JavaScript, and frameworks like Vue.js and PHP, I create visually appealing and user-friendly interfaces. I thrive in collaborative environments, using agile methodologies to deliver high-quality projects. My goal is to contribute to innovative projects that provide exceptional user experiences.
-                        </p>
+    </section>
+    <hr class="hr">
+    <section class="services " id="services" data-aos="fade-up">
+        <h1 class="d-flex justify-content-center">CURRENT PROJECT</h1>
+        <section class="venue-section mx-5">
+            <div class="owl-carousel custom-carousel owl-theme">
+              <div class="item active" style="background-image: url(img/projects/salesavant.PNG);" data-aos="zoom-in">
+                <div class="item-desc">
+                  <h3>SaleSavant</h3>
+                  <h5>Software Engineering 2 Client-Based Team Project</h5>
+                  <p>Developed a comprehensive Point-of-Sale (POS) system named SaleSavant using React JS. This system facilitates efficient sales transactions, menu management, and  inventory tracking</p>
+                </div>
+              </div>
+              <div class="item" style="background-image: url(img/projects/schedai.PNG);" data-aos="zoom-in">
+                <div class="item-desc">
+                  <h3>SchedAi</h3>
+                  <h5>Ai Driven Faculty Scheduler a prototype system for Thesis 2</h5>
+                  <p>Designed SchedAI, an intelligent faculty scheduling that streamlining time management and resource allocation for educational institutions.</p>
+                </div>
+              </div>
+              <div class="item" style="background-image: url(img/projects/tic-tac-toe.PNG);" data-aos="zoom-in">
+                <div class="item-desc">
+                  <h3>Tic-Tac-Toe</h3>
+                  <h5>Tic-Tac-Toe game as a school acivity</h5>
+                  <p>Designed SchedAI, an intelligent faculty scheduling tool with Python and AI, streamlining time management and resource allocation for educational institutions.</p>
+                </div>
+              </div>
+              <div class="item" style="background-image: url(img/projects/hci.PNG);" data-aos="zoom-in">
+                <div class="item-desc">
+                  <h3>Cartel Hardware</h3>
+                  <h5>Website Prototype Project in HCI Subject</h5>
+                  <p>Developed a prototype for an online hardware store, showcasing a user-friendly interface with detailed product listings, intuitive search functionality, and secure checkout processes to streamline the shopping experience for DIY enthusiasts and professionals.</p>
+                </div>
+              </div>
+              <div class="item" style="background-image: url(img/projects/motorent.PNG);" data-aos="zoom-in">
+                <div class="item-desc">
+                  <h3>Motorent</h3>
+                  <h5>Final Requirements in ou Web Developement Subject</h5>
+                  <p>Designed and developed a web application named motorent for managing motor rentals Using Laravue. This user-friendly platform allows users to browse available vehicles, make reservations, and manage their rental experience</p>
+                </div>
+              </div>
+              <div class="item" style="background-image: url(img/projects/pizza.PNG);" data-aos="zoom-in">
+                <div class="item-desc">
+                  <h3>Landing Page</h3>
+                  <h5>Practice Website</h5>
+                  <p>Designed and developed a web application named motorent for managing motor rentals Using Laravue. This user-friendly platform allows users to browse available vehicles, make reservations, and manage their rental experience</p>
+                </div>
+              </div>
+            </div>
+        </section>
+    </section>
+
+  <hr class="hr my-5">
+  <section class="contact" id="contact" data-aos="fade-up">
+        <h1 class="d-flex justify-content-center align-items-center">WORK WITH ME</h1>
+        <div class="row justify-content-center ">
+            <div class="col-md-6">
+                <div class="screen-body-item left">
+                    <div class="app-title mb-5 text-center">
+                        <span>CONTACT ME</span>
                     </div>
-                    <div class="about-img col-md-6 d-flex justify-content-center">
-                        <div class="img-zoom">
-                            <img src="img/Istib.jpg" alt="img" class="img-fluid img-shadow">
+                    <div class="contact-icon d-flex justify-content-center align-items-center mt-5">
+                        <a href="https://www.facebook.com/Stevegarciano1020" class="px-1"><img src="img/icon/fb.png" alt="" style="width: 60px; height: 60px;"></a>
+                        <a href="https://www.instagram.com/ean_steveee" class="px-1"><img src="img/icon/instagram.png" alt="" style="width: 60px; height: 60px;"></a>
+                        <a href="https://github.com/StibGee" class="px-1"><img src="img/icon/github.png" alt="" style="width: 80px; height: 80px;"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="screen-body-item">
+                    <div class="app-form">
+                        <div class="app-form-group">
+                            <input class="app-form-control" placeholder="NAME" value="Enter Your">
+                        </div>
+                        <div class="app-form-group">
+                            <input class="app-form-control" placeholder="EMAIL">
+                        </div>
+                        <div class="app-form-group">
+                            <input class="app-form-control" placeholder="CONTACT NO">
+                        </div>
+                        <div class="app-form-group message">
+                            <input class="app-form-control" placeholder="MESSAGE">
+                        </div>
+                        <div class="app-form-group buttons">
+                            <button class="app-form-button">CANCEL</button>
+                            <button class="app-form-button">SEND</button>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <hr class="hr">
-        <section class="projects" id="projects" data-aos="fade-up">
-            <div class="wrapper">
-                <h1 class="project-title d-flex justify-content-center">SKILLS</h1>
-                <div class="row">
-                    <div class="col-md-4 mb-4" ontouchstart="this.classList.toggle('hover');" data-aos="flip-left">
-                        <div class="container">
-                            <div class="front" style="background-image: url(img/logos/git.png)">
-                            </div>
-                            <div class="back">
-                                <div class="inner">
-                                    <p>Skilled in managing repositories, branching, pull requests, and issue tracking to streamline development workflows.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4" ontouchstart="this.classList.toggle('hover');" data-aos="flip-left">
-                        <div class="container">
-                            <div class="front" style="background-image: url(img/logos/php.webp)">
-                                <div class="inner">
-                                </div>
-                            </div>
-                            <div class="back">
-                                <div class="inner">
-                                    <p>Proficient in handling variables, arrays, loops, and basic functions. Building simple yet effective web applications and websites to enhance digital presence and functionality</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4" ontouchstart="this.classList.toggle('hover');" data-aos="flip-left">
-                        <div class="container">
-                            <div class="front" style="background-image: url(img/logos/html.jpg)">
-                                <div class="inner">
-                                </div>
-                            </div>
-                            <div class="back">
-                                <div class="inner">
-                                    <p>Fundamental knowledge of HTML for frontend development, proficient in creating structured web pages with semantic markup. Skilled in integrating multimedia elements, forms, and basic styling to enhance user interfaces and user experience.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 mb-4" ontouchstart="this.classList.toggle('hover');" data-aos="flip-left">
-                        <div class="container">
-                            <div class="front" style="background-image: url(img/logos/ps.webp)">
-                                <div class="inner">
-                                </div>
-                            </div>
-                            <div class="back">
-                                <div class="inner">
-                                    <p>Proficient in photo editing, image manipulation, and graphic design. Experienced in creating stunning visuals and enhancing photographs with precision and creativity</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4" ontouchstart="this.classList.toggle('hover');" data-aos="flip-left">
-                        <div class="container">
-                            <div class="front" style="background-image: url(img/logos/vue.png)">
-                                <div class="inner">
-                                </div>
-                            </div>
-                            <div class="back">
-                                <div class="inner">
-                                    <p>Vue.js skills for frontend development, adept at building interactive interfaces and integrating components to create dynamic web applications.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4" ontouchstart="this.classList.toggle('hover');" data-aos="flip-left">
-                        <div class="container">
-                            <div class="front" style="background-image: url(img/logos/figma.jpg)">
-                                <div class="inner">
-                                </div>
-                            </div>
-                            <div class="back">
-                                <div class="inner">
-                                    <p>Skilled in Figma for prototyping, proficient in creating interactive and visually compelling designs. Experienced in collaborative design processes, wireframing, and creating user interfaces that enhance user experience</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <hr class="hr">
-        <section class="services " id="services" data-aos="fade-up">
-            <div class="row justify-content-center">
-                <div class="col-md-8 text-center">
-                    <h1 class="d-flex justify-content-center">CURRENT PROJECT</h1>
-                </div>
-            </div>
-            <section class="venue-section mx-5">
-                <div class="owl-carousel custom-carousel owl-theme">
-                  <div class="item active" style="background-image: url(img/projects/salesavant.PNG);" data-aos="zoom-in">
-                    <div class="item-desc">
-                      <h3>SaleSavant</h3>
-                      <h5>Software Engineering 2 Client-Based Team Project</h5>
-                      <p>Developed a comprehensive Point-of-Sale (POS) system named SaleSavant using React JS. This system facilitates efficient sales transactions, menu management, and  inventory tracking</p>
-                    </div>
-                  </div>
-                  <div class="item" style="background-image: url(img/projects/schedai.PNG);" data-aos="zoom-in">
-                    <div class="item-desc">
-                      <h3>SchedAi</h3>
-                      <h5>Ai Driven Faculty Scheduler a prototype system for Thesis 2</h5>
-                      <p>Designed SchedAI, an intelligent faculty scheduling that streamlining time management and resource allocation for educational institutions.</p>
-                    </div>
-                  </div>
-                  <div class="item" style="background-image: url(img/projects/tic-tac-toe.PNG);" data-aos="zoom-in">
-                    <div class="item-desc">
-                      <h3>Tic-Tac-Toe</h3>
-                      <h5>Tic-Tac-Toe game as a school acivity</h5>
-                      <p>Designed SchedAI, an intelligent faculty scheduling tool with Python and AI, streamlining time management and resource allocation for educational institutions.</p>
-                    </div>
-                  </div>
-                  <div class="item" style="background-image: url(img/projects/hci.PNG);" data-aos="zoom-in">
-                    <div class="item-desc">
-                      <h3>Cartel Hardware</h3>
-                      <h5>Website Prototype Project in HCI Subject</h5>
-                      <p>Developed a prototype for an online hardware store, showcasing a user-friendly interface with detailed product listings, intuitive search functionality, and secure checkout processes to streamline the shopping experience for DIY enthusiasts and professionals.</p>
-                    </div>
-                  </div>
-                  <div class="item" style="background-image: url(img/projects/motorent.PNG);" data-aos="zoom-in">
-                    <div class="item-desc">
-                      <h3>Motorent</h3>
-                      <h5>Final Requirements in ou Web Developement Subject</h5>
-                      <p>Designed and developed a web application named motorent for managing motor rentals Using Laravue. This user-friendly platform allows users to browse available vehicles, make reservations, and manage their rental experience</p>
-                    </div>
-                  </div>
-                  <div class="item" style="background-image: url(img/projects/pizza.PNG);" data-aos="zoom-in">
-                    <div class="item-desc">
-                      <h3>Landing Page</h3>
-                      <h5>Practice Website</h5>
-                      <p>Designed and developed a web application named motorent for managing motor rentals Using Laravue. This user-friendly platform allows users to browse available vehicles, make reservations, and manage their rental experience</p>
-                    </div>
-                  </div>
-                </div>
-            </section>
-        </section>
-        <hr class="hr my-5">
-        <section class="contact" id="contact" data-aos="fade-up">
-            <div class="row justify-content-center">
-                <div class="col-md-8 text-center">
-                    <h1 class="d-flex justify-content-center">WORK WITH ME</h1>
-                </div>
-            </div>
-                <div class="container">
-                    <div class="screen-body">
-                      <div class="screen-body-item left">
-                        <div class="app-title mb-5 ">
-                            <span>CONTACT ME</span>
-                        </div>
-                        <div class="contact-icon d-flex justify-content-center align-items-center mt-5">
-                            <a href="https://www.facebook.com/Stevegarciano1020" class="px-3"><img src="img/icon/fb.png" alt="" style="width: 80px; height: 80px;"></a>
-                            <a href="https://www.instagram.com/ean_steveee" class="px-3"><img src="img/icon/instagram.png" alt="" style="width: 80px; height: 80px;"></a>
-                            <a href="https://github.com/StibGee" class="px-3"><img src="img/icon/github.png" alt="" style="width: 100px; height: 100px;"></a>
-                        </div>
-                      </div>
-                      <div class="screen-body-item">
-                        <div class="app-form">
-                            <div class="app-form-group">
-                                <input class="app-form-control" placeholder="NAME" value="Krisantus Wanandi">
-                            </div>
-                            <div class="app-form-group">
-                                <input class="app-form-control" placeholder="EMAIL">
-                            </div>
-                            <div class="app-form-group">
-                                <input class="app-form-control" placeholder="CONTACT NO">
-                            </div>
-                            <div class="app-form-group message">
-                                <input class="app-form-control" placeholder="MESSAGE">
-                            </div>
-                            <div class="app-form-group buttons">
-                                <button class="app-form-button">CANCEL</button>
-                                <button class="app-form-button">SEND</button>
-                            </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-        </section>
-        <footer class="footer">
-            <p>© StibGee 2024. All rights reserved.</p>
-            <a class="navbar-brand navbar-logo ml-5" href="#home"><img src="img/logo.png" alt="" width="auto" height="50px"></a>
-        </footer>
-    </main>
+        </div>
+</section>
+  <footer class="footer">
+      <p>© StibGee 2024. All rights reserved.</p>
+      <a class="navbar-brand navbar-logo " href="#home"><img src="img/logo.png" alt="" width="auto" height="50px"></a>
+  </footer>
+  </main>
 
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
