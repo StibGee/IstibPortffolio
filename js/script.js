@@ -1,4 +1,3 @@
-// ---------Responsive-navbar-active-animation-----------
 function test(){
 	var tabsNewAnim = $('#navbarSupportedContent');
 	var selectorNewAnim = $('#navbarSupportedContent').find('li').length;
@@ -38,7 +37,6 @@ $(".navbar-toggler").click(function(){
 	$(".navbar-collapse").slideToggle(300);
 	setTimeout(function(){ test(); });
 });
-
 
 
 // --------------add active class-on another-page move----------
